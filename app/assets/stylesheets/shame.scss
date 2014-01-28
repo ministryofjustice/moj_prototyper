@@ -8,3 +8,13 @@ body {
   background: $white;
 }
 // End
+
+// Layout
+#content {
+  max-width: 960px;
+  padding: 30px;
+}
+
+.service-name {
+  margin-left: 15px;
+}
