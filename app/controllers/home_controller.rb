@@ -6,6 +6,9 @@ class HomeController < ApplicationController
   def feedback
   end
 
+  def bootstrap
+  end
+
   def one
   end
 

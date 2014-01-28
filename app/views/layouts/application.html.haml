@@ -39,7 +39,7 @@
 - content_for :content do
   = yield :breadcrumb
   #wrapper.group
-    %section#content.group{:role => "main"}
+    %section#content.group.container{:role => "main"}
       = yield :inside_content
       = yield
 

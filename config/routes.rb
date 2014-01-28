@@ -9,6 +9,7 @@ MojPrototyper::Application.routes.draw do
   get '/five' => 'home#five'
   
   get '/feedback' => 'home#feedback'
+  get '/bootstrap' => 'home#bootstrap'
 
   # You can have the root of your site routed with "root"
   root 'home#index'
