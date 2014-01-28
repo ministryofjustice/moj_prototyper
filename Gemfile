@@ -25,6 +25,6 @@ end
 
 gem 'haml-rails'
 gem 'govuk_template'
-gem 'govuk_frontend_toolkit', git: 'https://github.com/ministryofjustice/govuk_frontend_toolkit_gem', branch: 'asset-submodule'
-gem 'moj_boilerplate', git: 'https://github.com/ministryofjustice/moj_boilerplate.git', tag: 'v0.2.0'
+gem 'govuk_frontend_toolkit', github: 'ministryofjustice/govuk_frontend_toolkit_gem', branch: 'asset-submodule'
+gem 'moj_boilerplate', github: 'ministryofjustice/moj_boilerplate', tag: 'v0.6.2'
 gem 'bootstrap-sass'

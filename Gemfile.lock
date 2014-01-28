@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/ministryofjustice/govuk_frontend_toolkit_gem
+  remote: git://github.com/ministryofjustice/govuk_frontend_toolkit_gem.git
   revision: 145acb0dbfd64ea08a5d62189deb7fb2365bd41f
   branch: asset-submodule
   specs:
@@ -8,12 +8,13 @@ GIT
       sass (>= 3.2.0)
 
 GIT
-  remote: https://github.com/ministryofjustice/moj_boilerplate.git
-  revision: e751e60dcf870e2fc72e461c0bb0a6eeb5f98abc
-  tag: v0.2.0
+  remote: git://github.com/ministryofjustice/moj_boilerplate.git
+  revision: ce40310108938d5690a7844d7c9e8a92e0a81bd0
+  tag: v0.6.2
   specs:
-    moj_boilerplate (0.2.0)
-      rails (~> 4.0.0)
+    moj_boilerplate (0.6.2)
+      govuk_frontend_toolkit (= 0.39.0)
+      govuk_template (= 0.3.8)
 
 GEM
   remote: https://rubygems.org/
@@ -56,7 +57,7 @@ GEM
     coffee-script-source (1.6.3)
     erubis (2.7.0)
     execjs (2.0.2)
-    govuk_template (0.4.0)
+    govuk_template (0.3.8)
       rails (>= 3.1)
     haml (4.0.5)
       tilt
