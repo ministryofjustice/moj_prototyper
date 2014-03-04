@@ -25,8 +25,10 @@ module MojPrototyper
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
-    # Application Title (Populates <title> and header)
+    # Application Title (Populates <title>)
     config.app_title = 'MOJ Prototyper'
+    # Proposition Title (Populates proposition header)
+    config.proposition_title = 'MOJ Prototyper'
     # Current Phase (Sets the current phase and the colour of phase tags)
     # Presumed values: alpha, beta, live
     config.phase = 'alpha'
@@ -34,7 +36,7 @@ module MojPrototyper
     # Presumed values: information, service
     config.product_type = 'service'
     # Feedback URL (URL for feedback link in phase banner)
-    config.feedback_url = '/feedback'
+    config.feedback_url = '#'
     # Google Analytics ID (Tracking ID for the service)
     config.ga_id = ''
   end
